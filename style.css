@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./assets/bannerHeader.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+header .box-header {
+  margin-top: 30px;
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: space-around;
+  background: linear-gradient(to right, #4247A2 0%, #52B095 100%);
+}
+header .navbar {
+  display: flex;
+  width: 40%;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header .navbar a {
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+
+.box-banner {
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.box-banner .box-titulo {
+  height: 50vh;
+  width: 35vw;
+  border: solid 2px purple;
+}
+.box-banner h2 {
+  padding: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #1173D4 0%, #33CC73 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+.box-banner p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #04031C;
+}
+
+.box-btn {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-agenda {
+  border-radius: 10px;
+  border: solid 1px #1173D4;
+  height: 5vh;
+  width: 30vh;
+  background: linear-gradient(to right, #1173D4 0%, #1173D4 100%);
+  color: #FFFFFF;
+}
+
+.btn-saiba {
+  border-radius: 10px;
+  border: solid 1px #1173D4;
+  height: 5vh;
+  width: 20vh;
+  background: #F9FAFB;
+  color: #1173D4;
+}/*# sourceMappingURL=style.css.map */
