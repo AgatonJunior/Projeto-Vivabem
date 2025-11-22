@@ -215,4 +215,123 @@ p {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+
+.box-Alertas {
+  border: solid 2px blue;
+  height: 80vh;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 50px 0;
+  gap: 1rem;
+}
+.box-Alertas h2 {
+  padding: 1rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #1173D4 25.96%, #33CC73 74.52%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-alertasImportantes {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  border: #244A2D solid 2px;
+  width: 68vw;
+  gap: 30px 110px;
+}
+
+.card-AutoExameMama {
+  width: 30vw;
+  border: solid 2px #AD346A;
+  background: #F9D5E5;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 8px;
+}
+.card-AutoExameMama p {
+  font-size: 0.9rem;
+  color: #AD346A;
+}
+.card-AutoExameMama h4 {
+  color: #AD346A;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.card-AutoExameTesticulos {
+  width: 30vw;
+  border: solid 2px #2769A3;
+  background: #CFE2F3;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 8px;
+}
+.card-AutoExameTesticulos p {
+  font-size: 0.9rem;
+  color: #2769A3;
+}
+.card-AutoExameTesticulos h4 {
+  color: #2769A3;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.card-Vacinacao {
+  width: 30vw;
+  border: solid 2px #244A2D;
+  background: #D4EDDA;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 8px;
+}
+.card-Vacinacao p {
+  font-size: 0.9rem;
+  color: #244A2D;
+}
+.card-Vacinacao h4 {
+  color: #244A2D;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.card-saudeMental {
+  width: 30vw;
+  border: solid 2px #976C00;
+  background: #FFE9C2;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 8px;
+}
+.card-saudeMental p {
+  font-size: 0.9rem;
+  color: #976C00;
+}
+.card-saudeMental h4 {
+  color: #976C00;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
