@@ -145,11 +145,11 @@ p {
 
 .box-prevencaoFeminina {
   background-color: #FDEFEF;
-  border: solid 2px darkblue;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
+  padding: 40px;
 }
 .box-prevencaoFeminina h2 {
   padding: 1rem;
@@ -164,7 +164,6 @@ p {
 }
 
 .box-cards {
-  border: solid 2px orange;
   width: 55vw;
   display: flex;
   align-items: center;
@@ -178,7 +177,7 @@ p {
   display: flex;
   align-items: center;
   text-align: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 45vh;
   width: 16vw;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
@@ -199,7 +198,15 @@ p {
   padding: 5px 20px;
 }
 
-h2 {
+.box-prevencaoMasculina {
+  background-color: #e8f1fc;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+}
+.box-prevencaoMasculina .titulo-Prev-Masc {
   padding: 1rem;
   font-size: 3.5rem;
   font-weight: bold;
@@ -208,6 +215,4 @@ h2 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
-  font-weight: bold;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
 }/*# sourceMappingURL=style.css.map */

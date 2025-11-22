@@ -14,7 +14,8 @@ $cor-titulo: #FFFFFF;
 $cor-sbutitulo: #04031C;
 $cor-btn-azul: #1173D4;
 $cor-btn-branco: #F9FAFB;
-$cor-fundoPrev-fem:#FDEFEF;
+$cor-fundoPrev-fem: #FDEFEF;
+$cor-fundoPrev-masc: #e8f1fc;
 
 header {
 
@@ -59,6 +60,7 @@ header {
     height: 80vh;
     display: flex;
     align-items: center;
+
     .box-titulo {
         height: 50vh;
         width: 35vw;
@@ -116,7 +118,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;   
+    width: 100%;
     list-style: disc;
 }
 
@@ -127,9 +129,10 @@ main {
     align-items: center;
     width: 80vw;
     height: 70vh;
-    margin:0 9rem;
+    margin: 0 9rem;
     flex-wrap: wrap;
     justify-content: space-around;
+
     h2 {
         padding: 1rem;
         font-size: 3.5rem;
@@ -140,47 +143,47 @@ main {
         background-clip: text;
         color: transparent;
         font-weight: bold;
-    
+
     }
-    }
-    
-    p{
-        font-size: 1.5rem;
-        color: $cor-sbutitulo;
-    }
+}
+
+p {
+    font-size: 1.5rem;
+    color: $cor-sbutitulo;
+}
 
 
-.cards-exames{
-   
+.cards-exames {
+
     height: 22vh;
     width: 17vw;
     background-repeat: no-repeat;
     background-size: contain;
     flex-direction: column;
-    color:$cor-btn-branco;
+    color: $cor-btn-branco;
     box-shadow: 0px 0px 10px 0px #00000040;
 
 
-    h4{
+    h4 {
         color: $cor-sbutitulo;
-        padding: 1rem ;
+        padding: 1rem;
     }
 
-    p{
+    p {
         font-size: 1rem;
     }
 }
 
 
-.box-prevencaoFeminina{
+.box-prevencaoFeminina {
     background-color: $cor-fundoPrev-fem;
-    border: solid 2px darkblue;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    
-    h2{
+    padding: 40px;
+
+    h2 {
         padding: 1rem;
         font-size: 3.5rem;
         font-weight: bold;
@@ -188,51 +191,62 @@ main {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-            color: transparent;
-            font-weight: bold;
-        }
+        color: transparent;
+        font-weight: bold;
+    }
 }
-    
-    .box-cards{
-        border: solid 2px orange;
-        width: 55vw;
+
+.box-cards {
+
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.card-prevencao {
+    border-radius: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 45vh;
+    width: 16vw;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    background-color: $cor-titulo;
+
+    h5 {
+        padding: 0 1rem;
         display: flex;
-        align-items: center;
         flex-wrap: wrap;
-        gap: 40px;
-        
-    }
-    
-    .card-prevencao{
-        border-radius: 16px;
-        flex-wrap: wrap;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        height: 45vh;
-        width: 16vw;
-        box-shadow: 0px 4px 4px 0px #00000040;
-        
-        background-color: $cor-titulo;
-        h5{
-            padding: 0 1rem;
-            display: flex;
-            flex-wrap: wrap;
-        }
-       
-    }
-    .card-prevencao li {
-        align-items: center;
-        text-align: start;
-        justify-content: center;
-        list-style: disc inside;
-        font-size: 0.8rem;
-        padding: 5px 20px;
-        
     }
 
-h2{
+}
+
+.card-prevencao li {
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    list-style: disc inside;
+    font-size: 0.8rem;
+    padding: 5px 20px;
+    
+
+}
+
+.box-prevencaoMasculina {
+    background-color: $cor-fundoPrev-masc;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+
+    .titulo-Prev-Masc {
         padding: 1rem;
         font-size: 3.5rem;
         font-weight: bold;
@@ -240,9 +254,6 @@ h2{
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-            color: transparent;
-            font-weight: bold;
-            background: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-
-
-        }
+        color: transparent;
+    }
+}
