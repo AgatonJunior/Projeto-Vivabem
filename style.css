@@ -218,14 +218,13 @@ p {
 }
 
 .box-Alertas {
-  border: solid 2px blue;
-  height: 80vh;
+  height: 70vh;
   flex-direction: column;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   margin: 50px 0;
-  gap: 1rem;
+  gap: 3rem;
 }
 .box-Alertas h2 {
   padding: 1rem;
@@ -243,7 +242,6 @@ p {
   align-items: center;
   text-align: center;
   flex-wrap: wrap;
-  border: #244A2D solid 2px;
   width: 68vw;
   gap: 30px 110px;
 }
@@ -334,4 +332,66 @@ p {
   font-weight: bold;
   display: flex;
   align-items: center;
+}
+
+footer {
+  background-color: #313461;
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 0;
+  background-size: contain;
+}
+
+.p-footer {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: center;
+  height: 4vh;
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 40px;
+  gap: 1rem;
+}
+
+.box-footer {
+  margin: 0;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-bottom: 2px solid #9FABBC;
+}
+.box-footer h5 {
+  font-size: 1rem;
+  color: #FFFFFF;
+  padding: 15px;
+}
+.box-footer p {
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  font-weight: 300;
+  padding: 10px;
+}
+
+.box-rodape {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 0;
+}
+
+.coluna-footer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 32vh;
+  width: 22vw;
 }/*# sourceMappingURL=style.css.map */
